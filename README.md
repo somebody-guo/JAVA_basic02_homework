@@ -15,7 +15,7 @@ JAVA的String对象是不可变对象，其值不允许修改，每次通过+或
 9) 使用标准异常
 10) 记录任何方法抛出的异常
 ### 4. When is it recommended to prefer Unchecked Exceptions?
-为不可恢复的错误使用非检查型异常
+为不可恢复的错误使用非检查型异常  
 对于无法预知类型的错误使用非检查异常
 ### 5.When do you use a Marker Interface?
 编程语言本身不支持为类维护元数据。而标记接口则弥补了这个功能上的缺失——一个类实现某个没有任何方法的标记接口，实际上标记接口从某种意义上说就成为了这个类的元数据之一。运行时，通过编程语言的反射机制，我们就可以在代码里拿到这种元数据。
@@ -33,4 +33,4 @@ JAVA的String对象是不可变对象，其值不允许修改，每次通过+或
 ### 10. Why should you avoid floats for Calculations?
 浮点型数据存储方式导致浮点数的计算在精度上会有损失，一旦这种误差带来程序错误是很难发现的。
 ### 11. Why should you build the riskiest high priority features first?
-降低高风险功能在项目后期引起蝴蝶效应的风险
+降低高风险功能在项目后期产生问题引起巨大影响的风险。
